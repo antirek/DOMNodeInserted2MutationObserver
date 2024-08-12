@@ -81,7 +81,6 @@
                 //  var observerConfig = { childList: true };
                 var observerConfig = { attributes: true, childList: true, characterData: true, subtree: true };
                 var targetNode = document.getElementById('mutation-selects');
-                console.log('tnode', targetNode)
 
                 observer.observe(targetNode, observerConfig);
                                 
